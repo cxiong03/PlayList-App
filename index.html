@@ -28,10 +28,23 @@
             </ul>
         </div>
         <form id="add-song">
+        <input type="checkbox" id="hide" />
+        <label for="hide">Hide all books</label>
         <input type="text" placeholder="Add a song...">
         <button>Add</button>
         </form>
-    </div>
-    
-</body>
+        <div id="tabbed-content">
+                <ul class="tabs">
+                  <li data-target="#about" class="active">About</li>
+                  <li data-target="#contact">Contact</li>
+                </ul>
+                <div class="panel active" id="about">
+                  <p>Playlist made easier.</p>
+                </div>
+                <div class="panel" id="contact">
+                  <p>Chang</p>
+                </div>
+              </div>
+        </div>
+    </body>
 </html>
