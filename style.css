@@ -9,8 +9,12 @@ h1, h2{
     color: white;
 }
 
-p {
+#page-banner p {
     color: white;
+}
+
+p {
+    color: black;
 }
 
 #wrapper{
@@ -27,7 +31,7 @@ p {
 
 #page-banner{
     background: rgb(0, 0, 0) ;
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 #page-banner h1, #page-banner p{
@@ -48,12 +52,18 @@ p {
     color: #444;
 }
 
-#song-list {
+/* #song-list {
     width: auto;
     height: 440px;
     background-image: url(https://wallpaperaccess.com/full/635736.jpg);
     background-size: 900px, 100%;
+} */
+
+#song-list ul li img{
+ max-width: 33%;
 }
+
+
 
 #song-list, #add-song, #tabbed-content{
     margin: 30px;
@@ -71,12 +81,17 @@ p {
 }
 
 #song-list li:hover{
-    border-color: #5dc03f;
+    border-color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 .delete{
     float: right;
-    background: #5dc03f;
+    background: black;
     padding: 6px;
     border-radius: 4px;
     cursor: pointer;
@@ -106,8 +121,8 @@ p {
 }
 
 #add-song button{
-    border: 1px solid #5dc03f;
-    background: #5dc03f;
+    border: 1px solid #000000;
+    background: #000000;
     padding: 10px 20px;
     font-size: 16px;
     display: inline-block;
