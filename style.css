@@ -1,11 +1,16 @@
 body{
     font-family: Tahoma;
-    color: #444;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
 }
 
 h1, h2{
     font-weight: normal;
+    color: white;
+}
+
+p {
+    color: white;
 }
 
 #wrapper{
@@ -21,9 +26,8 @@ h1, h2{
 }
 
 #page-banner{
-    background: #eee ;
+    background: rgb(0, 0, 0) ;
     padding: 10px 0;
-
 }
 
 #page-banner h1, #page-banner p{
@@ -42,6 +46,13 @@ h1, h2{
     border-radius: 4px;
     font-size: 16px;
     color: #444;
+}
+
+#song-list {
+    width: auto;
+    height: 440px;
+    background-image: url(https://wallpaperaccess.com/full/635736.jpg);
+    background-size: 900px, 100%;
 }
 
 #song-list, #add-song, #tabbed-content{
